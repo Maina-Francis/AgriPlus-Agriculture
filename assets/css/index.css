@@ -132,55 +132,53 @@ header {
     width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-}
-
-.selling-inner-left h1 {
-    font-size: 40px;
-    font-weight: 700;
+    /* gap: 30px; */
 }
 
 .selling-inner-left p {
     font-size: 18px;
 }
+.selling-inner-left h1 {
+    font-size: 42px;
+    font-weight: 900;
+}
 
 .explore-more {
+  height: 50px;
     width: 150px;
-    height: 50px;
-    border-radius: 2px;
-    border: none;
-    background-color: #ED661F;
+    margin-top: 30px;
     color: white;
-    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: #ED661F;
+    font-weight: 900;
     font-size: 18px;
 }
 
-button.explore:hover {
+button.explore-more:hover {
     background-color: black;
-    transition: .3s ease;
-    border-radius: 0 20px 0 20px;
 }
 
 .selling-bottom {
+  background-color: white;
+  display: flex;
+  justify-content: center;
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    background-color: white;
 }
 
 .selling-bottom-container {
-    width: 50%;
-    height: 150px;
+  height: 130px;
+    width: 45%;
     background-color: white;
-    margin-top: -50px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 5px;
+    margin-top: -60px;
     margin-bottom: 100px;
+    margin-right: -150px;
+    padding: 0 50px 0 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px 0 50px;
-
+    border-radius: 5px;
 }
