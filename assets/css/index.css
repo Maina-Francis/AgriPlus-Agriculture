@@ -303,6 +303,7 @@ button.explore-more:hover {
  .image-card p{
    margin: 5px 0 5px 0;
      font-size: 14px;
+     text-align: left;
  }
 
  .image-card img{
@@ -311,3 +312,37 @@ button.explore-more:hover {
      margin-bottom: 15px;
      border-radius: 4px;
  }
+.image-card p, h5, h6{
+  text-align: left;
+}
+
+.see .see-all{
+  height: auto;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 25px;
+    margin-right: 3%;
+    font-weight: 600;
+}
+.see-all i{
+  margin-left: 10px;
+}
+
+.see hr{
+  width: 3%;
+  height: 3px;
+  border: none;
+  background-color: #ED661F;
+  float:right;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
+.lower-hr{
+  height: 2vh;
+  width: 100%;
+  background-color: grey;
+}
