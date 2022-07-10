@@ -234,3 +234,30 @@ button.explore-more:hover {
 
 
  /* Categories of Procucts Section  */
+ .categories{
+   height: auto;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     margin-bottom: 100px;
+ }
+
+ .product-categories {
+   width: 100%;
+   height: auto;
+     padding-top: 20px;
+     text-align: center;
+ }
+
+ h2.product-categories {
+   font-size: 30px;
+     text-align: center;
+     text-transform: capitalize;
+ }
+
+ p.product-categories {
+   font-size: 18px;
+     text-align: center;
+ }
