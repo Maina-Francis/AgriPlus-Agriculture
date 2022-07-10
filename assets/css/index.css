@@ -536,7 +536,7 @@ span i{
 }
 .logo-images{
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: row;
 }
 /* #google-play{
   width: 100px;
