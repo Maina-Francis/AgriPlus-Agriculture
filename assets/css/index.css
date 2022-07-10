@@ -182,3 +182,52 @@ button.explore-more:hover {
     align-items: center;
     border-radius: 5px;
 }
+
+/* Why we exist section */
+.why-exist {
+  height: auto;
+    width: 100%;
+    margin: 0 0 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-left {
+  display: flex;
+  justify-content: center;
+  height: auto;
+    width: 100%;
+
+}
+
+.why-container {
+    width: 70%;
+}
+
+.why-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.why-container p {
+  line-height: 35px;
+    font-size: 18px;
+}
+
+.why-container .horizontal-rule {
+  height: 3px;
+    width: 20%;
+    border: none;
+    background-color: #ED661F;
+}
+
+.why-right {
+  height: auto;
+    width: 100%;
+}
+
+.why-right img {
+  height: auto;
+    width: 70%;
+}
