@@ -258,6 +258,44 @@ button.explore-more:hover {
  }
 
  p.product-categories {
+   text-align: center;
    font-size: 18px;
-     text-align: center;
+ }
+
+ .most-popular {
+   width: 90%;
+   height: auto;
+     margin-top: 30px;
+     display: flex;
+     flex-direction: column;
+ }
+ .first-column{
+     width: 100%;
+     height: auto;
+ }
+ .first-column h2{
+     font-size: 23px;
+     font-weight: 700;
+ }
+ .first-column h2 hr{
+     width: 7%;
+     height: 3px;
+     border: none;
+     background-color: #ED661F;
+ }
+
+ .image{
+     display: grid;
+     grid-template-rows: auto auto auto auto;
+     grid-template-columns: auto auto auto auto;
+     gap: 30px;
+
+ }
+
+ .image-card{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     padding: 30px 0 30px 0;
+     align-items: center;
  }
